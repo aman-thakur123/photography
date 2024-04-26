@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import Street from "../../public/street.jpg"
+import Heading from './Heading';
 
 export default function Carousel() {
     return (
         <>
+            <Heading title="Testimonial section" />
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">

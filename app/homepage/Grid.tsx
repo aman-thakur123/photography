@@ -6,16 +6,11 @@ import landscape3 from "../../public/landscape-3.jpg";
 import landscape4 from "../../public/landscape-4.jpg";
 import landscape5 from "../../public/landscape-5.jpg";
 import landscape6 from "../../public/landscape-6.jpg";
+import Heading from "./Heading";
 export default function Grid(){
     return(
         <>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-12">
-                        <h1>Grid Layout</h1>
-                    </div>
-                </div>
-            </div>
+            <Heading title="Grid section" />
             
             <div className="angry-grid">
                 <div id="item-0" style={{backgroundImage:`url(${landscape2.src})`,width: '100%',height: '100%', backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}></div>
