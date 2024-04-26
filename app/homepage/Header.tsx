@@ -1,3 +1,4 @@
+import "../globals.css";
 export default function Header() {
     return (
         <>
@@ -13,7 +14,7 @@ export default function Header() {
                                 <a className="nav-link link-light active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link link-light" href="#">Gallary</a>
+                                <a className="nav-link link-light" href="#">Gallery</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link link-light" href="#">Testimonial</a>

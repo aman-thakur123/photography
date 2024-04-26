@@ -11,7 +11,6 @@ export default function Grid(){
     return(
         <>
             <Heading title="Grid section" />
-            
             <div className="angry-grid">
                 <div id="item-0" style={{backgroundImage:`url(${landscape2.src})`,width: '100%',height: '100%', backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}></div>
                 <div id="item-1" style={{backgroundImage:`url(${landscape3.src})`,width: '100%',height: '100%', backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}></div>
