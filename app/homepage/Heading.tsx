@@ -1,4 +1,4 @@
-export default function Heading(props) {
+export default function Heading(props:any) {
     return(
         <>
             <div className="container-fluid">
